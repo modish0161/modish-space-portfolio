@@ -64,7 +64,7 @@ export function ThreeDCardDemo() {
       description: "Zero Bank transforms banking for the digital age.", 
       image: "/images/www_zero-bank_io/zero-bank-opening-page.png", 
       tryNowRoute: "/About-Slides-Project1",
-      signUpRoute: "https://www.machudesign.com",
+      signUpRoute: "https://zero-bank.vercel.app",
       signUpRouteTarget: "_blank"
     },
     { 
@@ -120,7 +120,7 @@ export function ThreeDCardDemo() {
       description: "A Full Stack AI SaaS Platform with Next js 14, TypeScript, Stripe", 
       image: "/images/Design-Zero/Design-ZeroBanner - OPENING PAGE.png", 
       tryNowRoute: "/About-Slides-Project1",
-      signUpRoute: "https://www.machudesign.com",
+      signUpRoute: "https://github.com/modish0161/DesignZero",
       signUpRouteTarget: "_blank"
     },
     { 
@@ -136,7 +136,7 @@ export function ThreeDCardDemo() {
       description: "Software Application Development for Phoenix - Microsoft Partner", 
       image: "/images/Phoenix-Dashboard/Phoenix-Dashboard-OPENING PAGE.png", 
       tryNowRoute: "/About-Slides-Project1",
-      signUpRoute: "https://www.machudesign.com",
+      signUpRoute: "https://www.phoenixs.co.uk/",
       signUpRouteTarget: "_blank"
     },
     { 
@@ -148,11 +148,19 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     { 
-      title: "Phoenix Industry - Softawre Application - Skills City Boot Camp", 
-      description: "Machudesign Architectural Technologies and a whole lot", 
-      image: "/images/machudesign-images/machudesign_com-Project-Opening-Page1.png", 
+      title: "Modish0161 Space-Portfolio - Full Stack Development Experience.", 
+      description: "Providing the best project experience and knowledge you can count on.", 
+      image: "/images/modish0161-space-portfolio/Modish0161-Space-Portfolio-OPENING PAGE.png", 
       tryNowRoute: "/About-Slides-Project1",
-      signUpRoute: "https://www.machudesign.com",
+      signUpRoute: "https://modish-space-portfolio.vercel.app/",
+      signUpRouteTarget: "_blank"
+    },
+    { 
+      title: "Fior Ribelle - Redefining Fashion with Couture Elegance", 
+      description: "Elegant couture fashion brand for the modern trendsetter.", 
+      image: "/images/Fior Ribelle/Fior Ribelle Opening page.png", 
+      tryNowRoute: "/About-Slides-Project1",
+      signUpRoute: "https://fiorribelle2014.wixsite.com/mysite",
       signUpRouteTarget: "_blank"
     },
     // Add more projects here...
