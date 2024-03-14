@@ -1,0 +1,46 @@
+https://www.youtube.com/watch?v=0siQoaXMmzk
+
+next.js - Portfolio wesbite
+three.js - star background
+framer motion - for animations
+typescript
+
+Fully mobile responsive
+
+
+Packages and Dependencies
+--------------------------
+
+npx create-next-app@latest ./
+
+## go through all defaults on install
+
+------------------------------------------
+
+npm install tailwindcss
+
+for styles etc
+
+------------------------------------------
+
+npm install --save-dev framer-motion three react-intersection-observer @react-three/drei @react-three/fiber
+
+-------------------------------------------
+
+npm install @heroicons/react
+
+motion.div, slider react icons etcs, icons, solidity etc...sparkles icon in hero section etc...content...
+
+-------------------------------------------
+
+npm install react-icons
+
+-------------------------------------------
+
+npm run dev
+
+-------------------------------------------
+
+
+
+
