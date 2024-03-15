@@ -80,7 +80,7 @@ export function ThreeDCardDemo() {
       description: "Machudesign Architectural Technologies and a whole lot", 
       image: "/images/machudesign-portfolio7/machudesign-portfolio7-OPENING PAGE.png", 
       tryNowRoute: "/About-Slides-Project1",
-      signUpRoute: "https://www.machudesign.com",
+      signUpRoute: "https://machudesign-portfolio7.vercel.app",
       signUpRouteTarget: "_blank"
     },
     { 
