@@ -268,8 +268,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
+      skill_name: "Stripe",
+      Image: "/stripe.webp",
       width: 40,
       height: 40,
     },
@@ -292,52 +292,175 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
+      skill_name: "Django",
+      Image: "/django-icon.svg",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
+      skill_name: "Flask",
+      Image: "/875-8753366_flask-framework-logo-svg.jpg",
       width: 80,
       height: 80,
     },
+    {
+    skill_name: "Golang",
+    Image: "/go.png",
+    width: 70,
+    height: 70,
+    },
+    {
+    skill_name: "Drizzle ORM ",
+    Image: "/Drizzle.png",
+    width: 70,
+    height: 70,
+    },
+    {
+    skill_name: "MongoDB",
+    Image: "/mongodb.png",
+    width: 55,
+    height: 55,
+    },
+    {
+    skill_name: "Docker",
+    Image: "/docker.webp",
+    width: 70,
+    height: 70,
+    },
+    {
+    skill_name: "Microsoft Azure",
+    Image: "/azure-v2.svg",
+    width: 70,
+    height: 70,
+    },
+    {
+    skill_name: "Amazon Web Services",
+    Image: "/amazon-web-services-logo.svg",
+    width: 70,
+    height: 70,
+    },
+    {
+    skill_name: "AmazonS3",
+    Image: "/Amazon-S3-Logo.png",
+    width: 70,
+    height: 70,
+    },
+    {
+    skill_name: "Python",
+    Image: "/Python.png",
+    width: 70,
+    height: 70,
+    },
+
+    
   ];
   
   export const Full_stack = [
 
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
+      skill_name: "Processing",
+      Image: "/Processing_3_logo.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Docker",
-      Image: "/docker.webp",
+      skill_name: "Postman",
+      Image: "/postman-icon-svgrepo-com.svg",
       width: 70,
       height: 70,
     },
-  
+    {
+      skill_name: "VS Code",
+      Image: "/VSCode.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "GitHub",
+      Image: "/gitwhite.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Adobe Photoshop",
+      Image: "/Adobe_Photoshop_Express_logo.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Adobe Illustrator",
+      Image: "/illustartor.webp",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Autodesk AutoCAD",
+      Image: "/autocad-icon.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Autodesk - Discreet 3DS Max",
+      Image: "/3ds-max-full.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Adobe After Effects",
+      Image: "/Adobe_After_Effects_CC_icon.png",
+      width: 70,
+      height: 70,
+    },
     {
       skill_name: "Figma",
       Image: "/figma.png",
-      width: 50,
-      height: 50,
+      width: 55,
+      height: 55,
+    },
+    {
+      skill_name: "Cinema4d",
+      Image: "/cinema-4d-logo.png",
+      width: 70,
+      height: 70,
     },
   
   ];
-  
-  
+
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
+      skill_name: "Mermaid-live",
+      Image: "/mermaid-live-editor-icon-filled-256.png",
       width: 60,
       height: 60,
     },
+    {
+      skill_name: "Cubase 12",
+      Image: "/Cubase12.png",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "Reason 12",
+      Image: "/reason-software-logo.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Waves Central",
+      Image: "/waves-logo-white.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Pro Tools",
+      Image: "/Pro-Tools.png",
+      width: 70,
+      height: 70,
+    },
+
+
+
   ];
   
   
