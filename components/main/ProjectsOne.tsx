@@ -77,7 +77,7 @@ export function ThreeDCardDemo() {
     },
     { 
       title: "Portfolio - No. 7", 
-      description: "Machudesign Architectural Technologies and a whole lot", 
+      description: "Different Portfolio Exploring Use Cases Within Web Development", 
       image: "/images/machudesign-portfolio7/machudesign-portfolio7-OPENING PAGE.png", 
       tryNowRoute: "/About-Slides-Project1",
       signUpRoute: "https://machudesign-portfolio7.vercel.app",
