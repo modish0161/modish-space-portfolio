@@ -144,7 +144,7 @@ export function ThreeDCardDemo() {
       description: "Software Application Development for Phoenix - Microsoft Partner",
       image: "/images/Phoenix-Dashboard/Phoenix-Dashboard-OPENING PAGE.png",
       SlidesAndInfoRoute: "/About-Slides-Project15",
-      signUpRoute: "https://www.phoenixs.co.uk/",
+      signUpRoute: "https://phoenix-software-application-deployment.vercel.app/",
       signUpRouteTarget: "_blank"
     },
     {
