@@ -21,15 +21,15 @@ import PulseBeam from './../components/main/PulseBeam';
 export default function Home() {
   // Define projects for the 3D cards demo
   const projects = [
-    { 
+    {
       title: "Synthesis of Form & Function",
-      description: `Leading Manchester's architecture with sustainable, tech-integrated solutions. Specialising in seamless design from inception to execution. Expertly navigating complex regulations to materialise innovative visions.`, 
-      image: "/images/machudesign-images/machudesign.com - Arch-Tech - 1.png" 
+      description: `Leading Manchester's architecture with sustainable, tech-integrated solutions. Specialising in seamless design from inception to execution. Expertly navigating complex regulations to materialise innovative visions.`,
+      image: "/images/machudesign-images/machudesign.com - Arch-Tech - 1.png"
     },
-    { 
+    {
       title: "Architectural Ingenuity",
-      description: `Machu Design excels in envelope solutions for landmark structures like Millennium Tower at Erie Basin, blending design with functionality. Machu Design delivers exceptional envelope work for Erie Basin's iconic Millennium Tower project.`, 
-      image: "/images/machudesign-images/machudesign.com - Arch-Tech - 2.png"  
+      description: `Machu Design excels in envelope solutions for landmark structures like Millennium Tower at Erie Basin, blending design with functionality. Machu Design delivers exceptional envelope work for Erie Basin's iconic Millennium Tower project.`,
+      image: "/images/machudesign-images/machudesign.com - Arch-Tech - 2.png"
     },
     {
       title: "Heritage Modernisation",
@@ -135,74 +135,74 @@ export default function Home() {
       title: "Technological Synergy in Architecture",
       description: "Machu Design is at the forefront of blending advanced technology with practical design. Our sustainable solutions contribute to Manchester’s evolving architecture, integrating complex designs into the urban fabric.",
       image: "/images/machudesign-images/machudesign.com - Arch-Tech - 23.png"
-    }, 
+    },
     {
       title: "Architectural Technology Integration",
       description: "Machu Design pioneers in fusing high-tech solutions with functional architecture. Our innovative designs not only reshape Manchester’s skyline but also blend seamlessly with the city's existing urban fabric, nature and our very lives.",
       image: "/images/machudesign-images/machudesign.com - Arch-Tech - 25.png"
-    }    
+    }
   ];
 
-    return (
-      <main className="h-full w-full bg-black">
-        <Navbar />
-        <div className="flex flex-col gap-20 items-center">
-          <h1 className="text-white text-center text-3xl font-bold mt-20 mb-0 px-6">machudesign.com</h1>        
-            {/* Photo Portfolio Section */}
-            <section className="relative w-full overflow-hidden bg-gray-100 py-12 md:py-24 xl:py-32 dark:bg-gray-850">
-              <div className="container px-4 space-y-12 md:space-y-16 xl:space-y-20 dark:text-gray-250 text-center mx-auto">
-                <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About Machu Design</h2>
-                <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
-                <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                  At Machu Design, we bridge the gap between traditional architectural principles and the boundless possibilities of modern design. Established with a passion for creating spaces that inspire and resonate, our firm specialises in delivering architectural projects that embody both functionality and aesthetic brilliance.
-                </p>
-                <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                  Our website, www.machudesign.com, serves as a digital portfolio showcasing our commitment to excellence in architectural design. It features a meticulously curated selection of our projects, each illustrating our capability to blend innovative design solutions with environmental sensitivity and client-specific needs.
-                </p>
-                <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                  From residential marvels to commercial masterpieces, Machu Design has carved a niche in transforming visions into tangible realities. Our projects section highlights our versatility across various domains, including bespoke home designs, efficient office spaces, and public structures that engage and empower communities.
-                </p>
-                <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                  Innovation lies at the heart of everything we do. Our design approach is deeply rooted in research and cutting-edge technology, enabling us to push boundaries and explore new horizons in architectural design. Whether it&apos;s sustainable living concepts or integrating smart technology into our projects, we are dedicated to pioneering solutions that address the challenges of contemporary living.
-                </p>
-                <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                  At Machu Design, collaboration is key. We believe that great architecture is born from a synergy of ideas, and we are always eager to collaborate with clients, engineers, and designers to bring exceptional projects to life. Our website offers an insight into our design philosophy, services, and the collaborative process that underpins our work.
-                </p>
-                <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                  Discover the latest projects, insights, and architectural trends through our website. Whether you&apos;re a potential client, a fellow architect, or simply an aficionado of innovative design, www.machudesign.com invites you to explore the world of Machu Design and be inspired.
-                </p>
-              </div>
+  return (
+    <main className="h-full w-full bg-black">
+      <Navbar />
+      <div className="flex flex-col gap-20 items-center">
+        <h1 className="text-white text-center text-3xl font-bold mt-20 mb-0 px-6">machudesign.com</h1>
+        {/* Photo Portfolio Section */}
+        <section className="relative w-full overflow-hidden bg-gray-100 py-12 md:py-24 xl:py-32 dark:bg-gray-850">
+          <div className="container px-4 space-y-12 md:space-y-16 xl:space-y-20 dark:text-gray-250 text-center mx-auto">
+            <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About Machu Design</h2>
+            <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
+              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
+                At Machu Design, we bridge the gap between traditional architectural principles and the boundless possibilities of modern design. Established with a passion for creating spaces that inspire and resonate, our firm specialises in delivering architectural projects that embody both functionality and aesthetic brilliance.
+              </p>
+              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
+                Our website, www.machudesign.com, serves as a digital portfolio showcasing our commitment to excellence in architectural design. It features a meticulously curated selection of our projects, each illustrating our capability to blend innovative design solutions with environmental sensitivity and client-specific needs.
+              </p>
+              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
+                From residential marvels to commercial masterpieces, Machu Design has carved a niche in transforming visions into tangible realities. Our projects section highlights our versatility across various domains, including bespoke home designs, efficient office spaces, and public structures that engage and empower communities.
+              </p>
+              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
+                Innovation lies at the heart of everything we do. Our design approach is deeply rooted in research and cutting-edge technology, enabling us to push boundaries and explore new horizons in architectural design. Whether it&apos;s sustainable living concepts or integrating smart technology into our projects, we are dedicated to pioneering solutions that address the challenges of contemporary living.
+              </p>
+              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
+                At Machu Design, collaboration is key. We believe that great architecture is born from a synergy of ideas, and we are always eager to collaborate with clients, engineers, and designers to bring exceptional projects to life. Our website offers an insight into our design philosophy, services, and the collaborative process that underpins our work.
+              </p>
+              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
+                Discover the latest projects, insights, and architectural trends through our website. Whether you&apos;re a potential client, a fellow architect, or simply an aficionado of innovative design, www.machudesign.com invites you to explore the world of Machu Design and be inspired.
+              </p>
             </div>
-              </section>  
-                <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">Slides</h2>      
-                  {/* 3D Cards Section */}
-                    <div className="py-0 mt-0 md:py-2 xl:py-4">
-                      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-1">
-                        {projects.map((project, index) => (
-                          <CardContainer key={index} className="inter-var bg-white dark:bg-gray-800 rounded-lg p-6 mb-0">
-                            <CardBody>
-                              <h3 className="text-xl font-bold">{project.title}</h3>
-                              <p>{project.description}</p>
-                              <div className="mt-2 w-full h-auto"> {/* Adjusted margin top */}
-                                <Image
-                                  src={project.image}
-                                  alt={project.title}
-                                  width={1000}
-                                  height={400}
-                                  className="rounded-xl object-cover w-full h-full"
-                                />
-                              </div>
-                            </CardBody>
-                          </CardContainer>
-                        ))}
-                      </div>
-                    </div>
-                  {/* PulseBeam Section */}
-                <div className="w-full" style={{ background: 'transparent', marginTop: '5px' }}>
-              <PulseBeam />
+          </div>
+        </section>
+        <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">Slides</h2>
+        {/* 3D Cards Section */}
+        <div className="py-0 mt-0 md:py-2 xl:py-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-1">
+            {projects.map((project, index) => (
+              <CardContainer key={index} className="inter-var bg-white dark:bg-gray-800 rounded-lg p-6 mb-0">
+                <CardBody>
+                  <h3 className="text-xl font-bold">{project.title}</h3>
+                  <p>{project.description}</p>
+                  <div className="mt-2 w-full h-auto"> {/* Adjusted margin top */}
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      width={1000}
+                      height={400}
+                      className="rounded-xl object-cover w-full h-full"
+                    />
+                  </div>
+                </CardBody>
+              </CardContainer>
+            ))}
           </div>
         </div>
+        {/* PulseBeam Section */}
+        <div className="w-full" style={{ background: 'transparent', marginTop: '5px' }}>
+          <PulseBeam />
+        </div>
+      </div>
       <Footer />
     </main>
-    );
+  );
 }

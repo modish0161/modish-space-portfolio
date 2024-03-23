@@ -52,13 +52,13 @@ const HeroContent = () => {
         </motion.div>
 
         <motion.a
+          href="/About-MJ-COLLINS-CV" // Path to your page without the .tsx extension
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[300px]"
         >
           Learn More!
         </motion.a>
       </div>
-
       <motion.div
         variants={slideInFromRight(0.9)}
         className="w-full h-full flex justify-center items-center"
@@ -70,6 +70,7 @@ const HeroContent = () => {
           height={1300}
           width={1000}
         />
+
       </motion.div>
     </motion.div>
   );

@@ -13,10 +13,6 @@ export default function Home() {
     <main className="h-full w-full">
       <div className="flex flex-col gap-20">
         <Hero />
-
-        {/* Add appropriate children here */}
-        <div>Content or other components to be wrapped by TracingBeam</div>
-
         <Skills />
         <Encryption />
         <ProjectsOne />
