@@ -22,64 +22,64 @@ export default function Home() {
   // Define projects for the 3D cards demo
   const projects = [
     {
-      title: "FinTech Innovation & Integration",
-      description: `Leading the charge in Manchester's fin-tech with new, secure blockchain solutions. Specialising in the seamless integration of advanced FinTech from conceptual finance models to market-ready financial products. Expert in navigating the cryptocurrency regulations and next-gen financial platforms.`,
-      image: "/images/moo-lah_io/MoolahSlides-1.webp"
+      title: "NAVIGATING THE BLOCKCHAIN REVOLUTION",
+      description: `Zero-Blockchain pioneers the path to blockchain excellence, transforming digital transactions with unparalleled security, efficiency, and transparency. Join us in leading the blockchain movement.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (1).webp"
     },
     {
-      title: "Investment Strategies & Analysis",
-      description: `Our expertise shines in offering sophisticated investment strategies for diverse portfolios, including analysis of market trends and comprehensive risk assessment. Delivering insights for assets ranging from traditional securities to new digital currencies, providing a competitive edge in dynamic markets.`,
-      image: "/images/moo-lah_io/MoolahSlides-2.webp"
+      title: "DEMYSTIFYING BLOCKCHAIN TECHNOLOGY",
+      description: `Our educational initiatives aim to demystify blockchain for all. From beginners to advanced developers, we offer resources to empower your blockchain journey.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (2).webp"
     },
     {
-      title: "Blockchain Empowerment",
-      description: `Revolutionising Manchester's financial scene, moo-lah.io employs blockchain to enhance transparency and efficiency. Our approach demystifies digital currencies and offers robust blockchain education, empowering individuals and businesses to participate confidently in the new economy.`,
-      image: "/images/moo-lah_io/MoolahSlides-3.webp"
+      title: "REDEFINING FINANCE WITH BLOCKCHAIN",
+      description: `Through innovative blockchain solutions, Zero-Blockchain is redefining finance, enhancing transactions, and securing data integrity across global markets. `,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (3).webp"
     },
     {
-      title: "Cryptocurrency Market Insights",
-      description: `We pride ourselvesavigating the volatility of cryptocurrency markets, moo-lah.io provides in-depth analysis and real-time insights. We decode market signals and trends to offer informed predictions, aiding investment decisions for a forward-thinking clientele.`,
-      image: "/images/moo-lah_io/MoolahSlides-4.webp"
+      title: "ENSURING DATA INTEGRITY IN HEALTHCARE",
+      description: `Zero-Blockchain leverages blockchain technology to enhance data integrity and accessibility in healthcare, ensuring secure and efficient patient data management.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (4).webp"
     },
     {
-      title: "Economics Through Education",
-      description: `Moo-lah.io is dedicated to economic empowerment by providing comprehensive financial literacy resources. We cover essential topics from budgeting to investing, promoting an informed public capable of making savvy financial decisions.`,
-      image: "/images/moo-lah_io/MoolahSlides-5.webp"
+      title: "TRANSFORMING SUPPLY CHAINS",
+      description: `Our blockchain solutions offer unmatched transparency and efficiency in supply chain management, revolutionizing the way products are traced from origin to consumer.\n\nVisualize the journey of your products with our technology.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (5).webp"
     },
     {
-      title: "Personal Finance Mastery",
-      description: `Our platform serves as a beacon for personal finance mastery, offering tailored advice that ranges from managing debt to wealth accumulation strategies. Moo-lah.io stands as an ally in the journey towards financial independence.`,
-      image: "/images/moo-lah_io/MoolahSlides-6.webp"
+      title: "FUTURE-PROOF YOUR BUSINESS WITH BLOCKCHAIN",
+      description: `Embrace the future by integrating Zero-Blockchain's cutting-edge technologies into your business, setting new standards of excellence and innovation. Experience the next level of digital security.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (6).webp"
     },
     {
-      title: "Sustainable Investment Solutions",
-      description: `Championing sustainable investment, moo-lah.io aligns profit with purpose. We provide guidance on how to invest in green assets and socially responsible companies, contributing to a healthier planet and society while targeting financial returns.`,
-      image: "/images/moo-lah_io/MoolahSlides-7.webp"
+      title: "BLOCKCHAIN FOR SUSTAINABLE DEVELOPMENT",
+      description: `Discover how Zero-Blockchain's solutions contribute to sustainable development goals by promoting transparency, efficiency, and ethical business practices.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (7).webp"
     },
     {
-      title: "Financial Analytics & Reporting",
-      description: `Harnessing advanced analytics, moo-lah.io transforms data into financial foresight. Our detailed reporting services support businesses and individuals in making informed decisions grounded in solid data interpretation.`,
-      image: "/images/moo-lah_io/MoolahSlides-8.webp"
+      title: "THE NEXT GEN OF SMART CONTRACTS",
+      description: `Unlock the full potential of smart contracts with Zero-Blockchain, driving automation and efficiency in digital agreements and transactions. \n\nJoin the revolution for a more transparent, efficient, and secure financial system.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (8).webp"
     },
     {
-      title: "Wealth Management & Growth",
-      description: `Our holistic approach to wealth management at moo-lah.io encompasses portfolio construction, tax planning, and estate management. We craft bespoke strategies that aim to protect and grow wealth over the long term.`,
-      image: "/images/moo-lah_io/MoolahSlides-9.webp"
+      title: "DEVELOPING DECENTRALIZED APPLICATIONS (DAPPS)",
+      description: `With Zero-Blockchain, create decentralized applications that redefine user autonomy, privacy, and security in the digital world.\n\nEmbrace the power of DApps to transform digital interactions and services.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (9).webp"
     },
     {
-      title: "Strategic Financial Planning",
-      description: `Moo-lah.io excels in creating strategic financial plans that cater to individual goals and organisations. From early retirement planning to education funding, we craft clear, actionable paths to achieve financial milestones.`,
-      image: "/images/moo-lah_io/MoolahSlides-10.webp"
+      title: "EMPOWERING THE BLOCKCHAIN PROFESSIONAL",
+      description: `Join our career development programs to become a blockchain expert. Zero-Blockchain is shaping the professionals who will lead tomorrow's blockchain innovations.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (10).webp"
     },
     {
-      title: "Corporate Financial Engineering",
-      description: `Our expertise in corporate financial engineering allows businesses to unlock value through innovative financial structuring, risk management, and capital optimisation. Moo-lah.io is at the forefront of corporate financial transformation.`,
-      image: "/images/moo-lah_io/MoolahSlides-11.webp"
+      title: "PIONEERING BLOCKCHAIN RESEARCH AND DEVELOPMENT",
+      description: `Our R&D efforts push the boundaries of blockchain technology, exploring new possibilities for its application and adoption across industries. \nAdvancing blockchain's future.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (11).webp"
     },
     {
-      title: "Global Market Analysis",
-      description: `Moo-lah.io offers expansive coverage of global markets, providing investors with the pulse of economic activities worldwide. We deliver insights that span across borders, aiding in diversified and informed global investment strategies.`,
-      image: "/images/moo-lah_io/MoolahSlides-12.webp"
+      title: "BUILDING A GLOBAL BLOCKCHAIN ECOSYSTEM",
+      description: `Zero-Blockchain is at the heart of a growing global ecosystem, connecting innovators, businesses, and technologies to drive the blockchain revolution forward.`,
+      image: "/images/www-zero-blockchain-xyz/ZeroBlockchain-xyxSlides (12).webp"
     }
   ];
 
@@ -87,29 +87,29 @@ export default function Home() {
     <main className="h-full w-full bg-black">
       <Navbar />
       <div className="flex flex-col gap-20 items-center">
-        <h1 className="text-white text-center text-3xl font-bold mt-20 mb-0 px-6">Moo-lah.io</h1>
-        {/* Photo Portfolio Section */}
+        <h1 className="text-white text-center text-3xl font-bold mt-20 mb-0 px-6">zero-blockchain.xyz</h1>
+        {/* About Zero-Blockchain Section */}
         <section className="relative w-full overflow-hidden bg-gray-100 py-12 md:py-24 xl:py-32 dark:bg-gray-850">
           <div className="container px-4 space-y-12 md:space-y-16 xl:space-y-20 dark:text-gray-250 text-center mx-auto">
-            <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About Moo-lah.io</h2>
+            <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About Zero-Blockchain</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Moo-lah.io is the epitome of financial empowerment and insightful analysis in the digital age. Our commitment lies in demystifying finance through accessible, in-depth articles and resources that pave the way to financial freedom. Our holistic approach integrates the latest in financial trends, offering advice and strategies that are crucial for financial well-being.
+                At Zero-Blockchain, we are at the vanguard of the blockchain revolution, leveraging profound expertise to pioneer solutions that redefine the boundaries of digital transactions. Our commitment to innovation drives us to deliver unmatched security, efficiency, and transparency in the blockchain space.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                At www.moo-lah.io, we&apos;ve cultivated a space where financial literacy meets practical application. Our platform is a cornucopia of financial knowledge, from beginner budgeting tips to complex investment strategies, reflecting our mission to foster an informed and financially savvy community.
+                Through our educational initiatives, we aim to demystify blockchain technology for a global audience, fostering a deeper understanding and facilitating widespread adoption. Our resources range from introductory materials to advanced courses, catering to learners at all levels.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Our content ranges from real-time market analysis to evergreen financial wisdom, providing our audience with the resources they need to make informed decisions. Each article and financial tool offered on moo-lah.io is crafted to elevate the reader&apos;s financial acumen, with a proven track record of aiding individuals and businesses in navigating the financial landscape.
+                Our innovative platforms and solutions are designed to address real-world challenges, transforming industries such as finance, healthcare, and supply chain management. Through case studies and success stories, we showcase the transformative impact of our blockchain solutions.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Innovation in financial communication is at the heart of what we do. Moo-lah.io constantly embraces cutting-edge financial technologies and analytical methods, ensuring that our readers are always ahead of the curve. Our commitment to clarity and accuracy sets a new standard in financial journalism and analysis.
+                As a leader in the blockchain domain, Zero-Blockchain is committed to excellence, continuously exploring the latest digital trends and technologies. Our goal is not only to innovate but to set new standards in the digital economy, empowering businesses and individuals with cutting-edge blockchain solutions.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                We believe that effective financial management is a collaborative effort. Moo-lah.io prides itself on engaging with a community of readers and experts to refine and tailor our content. This collaborative spirit is woven into each piece, ensuring that our advice is not only expert-driven but also community-focused.
+                Collaboration is key to our philosophy. We believe in the power of working closely with our clients, partners, and the broader community to co-create the future of blockchain. Together, we can unlock the immense potential of blockchain technology and drive the digital revolution forward.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Dive into the financial narrative at www.moo-lah.io to discover a plethora of articles and analysis that encapsulate the essence of smart money management. Whether you&apos;re crafting a personal investment portfolio or seeking economic insights, moo-lah.io is your premier destination for financial acumen and empowerment.
+                We invite you to join us on this journey, exploring the vast possibilities of blockchain technology with Zero-Blockchain. Visit our website at zero-blockchain.xyz to learn more about our services, educational programs, and innovative projects.
               </p>
             </div>
           </div>

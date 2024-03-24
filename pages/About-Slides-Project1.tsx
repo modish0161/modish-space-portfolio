@@ -14,7 +14,6 @@ import {
   IconBoxAlignRightFilled,
 } from "@tabler/icons-react";
 import { CardBody, CardContainer, CardItem } from "../components/main/3d-card";
-import Link from 'next/link'; // Assuming you're using Next.js Link for navigation
 import PulseBeam from './../components/main/PulseBeam';
 
 // Define the main page component

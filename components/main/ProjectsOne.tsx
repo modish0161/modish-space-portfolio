@@ -28,7 +28,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.modish0161.com",
+      title: "www.Modish0161.com",
       description: "Crafting the Future, Code by Code.",
       image: "/images/Modish0161-Website/Modish-Website-Opening_Project_Page.png",
       SlidesAndInfoRoute: "/About-Slides-Project2",
@@ -36,7 +36,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.moo-lah.io",
+      title: "www.Moo-Lah.io",
       description: "Navigate Finance, Accelerate Success. Grow Your Wealth, One Click at a Time ",
       image: "/images/moo-lah_io/moo-lah_io-Project-Opening-Page1.png",
       SlidesAndInfoRoute: "/About-Slides-Project3",
@@ -44,7 +44,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.zeroartnft.com",
+      title: "www.ZeroArtNFT.com",
       description: "Zero Art NFT: Revolutionising the digital art scene.",
       image: "/images/zero-art-nft/zero-art-nft-opening-page.png",
       SlidesAndInfoRoute: "/About-Slides-Project4",
@@ -52,7 +52,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.zero-blockchain.xyz",
+      title: "www.Zero-Blockchain.xyz",
       description: "Beyond Blockchain: Where Innovation Meets Reality, Shaping Tomorrow's Blockchain, Today. ",
       image: "/images/www-zero-blockchain-xyz/zero-blockchain_xyz-Project-Opening-Page1.png",
       SlidesAndInfoRoute: "/About-Slides-Project5",
@@ -64,7 +64,7 @@ export function ThreeDCardDemo() {
       signUpRoute2Target: "_blank"
     },
     {
-      title: "www.zero-bank.io",
+      title: "www.Zero-Bank.io",
       description: "Zero Bank transforms banking for the digital age.",
       image: "/images/www_zero-bank_io/zero-bank-opening-page.png",
       SlidesAndInfoRoute: "/About-Slides-Project6",
@@ -72,7 +72,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "Smarts Contracts & Solidity Programmming",
+      title: "Smarts Contracts & Solidity Programmming - Zero-Blockchain.xyz",
       description: "Creating secure Smart Contracts with Solidity on the Ethereum Blockchain.",
       image: "/images/Smarts Contracts & Solidity Programmming/Smart contracts modish portfolio Logo.webp",
       SlidesAndInfoRoute: "/About-Slides-Project7",
@@ -92,7 +92,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.zero-art.com",
+      title: "www.Zero-Art.com",
       description: "A GREAT SELECTION AT ZERO ART",
       image: "/images/ZERO-ART/ZERO-ART-OPENING PAGE.png",
       SlidesAndInfoRoute: "/About-Slides-Project9",
@@ -116,7 +116,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.zero-gpt",
+      title: "www.Zero-GPT.io",
       description: "A Language Learning Model (LLM) Based on OPEN AI GPT-3.5 turbo",
       image: "/images/zero-gpt/Zero-Gpt-Logo.webp",
       SlidesAndInfoRoute: "/About-Slides-Project12",
@@ -124,7 +124,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "www.design-zero.com",
+      title: "www.Design-Zero.io",
       description: "A Full Stack AI SaaS Platform with Next js 14, TypeScript, Stripe",
       image: "/images/Design-Zero/Design-ZeroBanner - OPENING PAGE.png",
       SlidesAndInfoRoute: "/About-Slides-Project13",
@@ -148,7 +148,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "No-Brainer - A Website For AI Chat Experience",
+      title: "www.No-Brainer.io - A Website For AI Chat Experience",
       description: "A Modern UI/UX Website with React & Tailwind CSS",
       image: "/images/No-Brainer/No-Brainer-OPENING PAGE.png",
       SlidesAndInfoRoute: "/About-Slides-Project16",
@@ -164,7 +164,7 @@ export function ThreeDCardDemo() {
       signUpRouteTarget: "_blank"
     },
     {
-      title: "Fior Ribelle - Redefining Fashion with Couture Elegance",
+      title: "www.Fior-Ribelle.com - Redefining Fashion with Couture Elegance",
       description: "Elegant couture fashion brand for the modern trendsetter.",
       image: "/images/Fior Ribelle/Fior Ribelle Opening page.png",
       SlidesAndInfoRoute: "/About-Slides-Project18",
@@ -175,9 +175,9 @@ export function ThreeDCardDemo() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center py-20" id="projects">
+    <div className="flex flex-col items-center justify-center py-20 pb-0" id="projects">
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 mt-20 mb-1">
-        My Projects
+        My Companies & Projects
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-4 gap-y-4">
@@ -210,7 +210,7 @@ export function ThreeDCardDemo() {
                 {/* Link to the "Try now" route for each project */}
                 <Link href={project.SlidesAndInfoRoute}>
                   <CardItem
-                    translateZ={20}
+                    translateZ={25}
                     as="button"
                     className="px-4 py-2 rounded-xl bg-blue-100 text-blue-700 text-xs font-bold"
                   >
@@ -220,7 +220,7 @@ export function ThreeDCardDemo() {
                 {/* Conditionally render the Chain-JS link */}
                 {project.signUpRoute1 && (
                   <Link href={project.signUpRoute1}>
-                    <CardItem translateZ={20} as="button" className="px-4 py-2 rounded-xl bg-blue-100 text-blue-700 text-xs font-bold">
+                    <CardItem translateZ={24} as="button" className="px-4 py-2 rounded-xl bg-blue-100 text-blue-700 text-xs font-bold">
                       Zero-Blockchain-Python-V1
                     </CardItem>
                   </Link>
@@ -228,7 +228,7 @@ export function ThreeDCardDemo() {
                 {/* Conditionally render the Chain-JS link */}
                 {project.signUpRoute1 && (
                   <Link href={project.signUpRoute2}>
-                    <CardItem translateZ={20} as="button" className="px-4 py-2 rounded-xl bg-blue-100 text-blue-700 text-xs font-bold">
+                    <CardItem translateZ={23} as="button" className="px-4 py-2 rounded-xl bg-blue-100 text-blue-700 text-xs font-bold">
                       Zero-Blockchain-Javascript-V1
                     </CardItem>
                   </Link>
@@ -236,7 +236,7 @@ export function ThreeDCardDemo() {
                 {/* Link to the "Sign up" route for each project */}
                 <Link href={project.signUpRoute} target="_blank" rel="noopener noreferrer">
                   <CardItem
-                    translateZ={20}
+                    translateZ={22}
                     as="button"
                     className="px-4 py-2 rounded-xl bg-blue-100 text-blue-700 text-xs font-bold"
                   >
