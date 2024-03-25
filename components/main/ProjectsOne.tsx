@@ -76,7 +76,7 @@ export function ThreeDCardDemo() {
       description: "Creating secure Smart Contracts with Solidity on the Ethereum Blockchain.",
       image: "/images/Smarts Contracts & Solidity Programmming/Smart contracts modish portfolio Logo.webp",
       SlidesAndInfoRoute: "/About-Slides-Project7",
-      signUpRoute: "https://github.com/modish0161/ZeroLang-SmartContract-Test",
+      signUpRoute: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS",
       signUpRouteTarget: "_blank",
       signUpRoute1: "https://www.zero-blockchain.xyz",
       signUpRoute1Target: "_blank",

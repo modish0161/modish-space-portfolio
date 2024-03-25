@@ -38,7 +38,7 @@ export default function Home() {
     },
     {
       title: "UNLOCKING CRYPTOCURRENCY INVESTMENTS",
-      description: `Zero Bank's platform demystifies cryptocurrency investments, making it easy for beginners and veterans alike to invest in crypto securely. Navigate the digital currency landscape with our expert insights and robust tools.`,
+      description: `Zero Bank's platform demystifies cryptocurrency investments, making it easy for beginners and veterans alike to invest in crypto securely. Navigate the digital currency landscape with our insight tools.`,
       image: "/images/www_zero-bank_io/zero-bank (4).webp"
     },
     {
