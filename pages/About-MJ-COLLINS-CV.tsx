@@ -1,7 +1,7 @@
 // Import necessary libraries and components
 import React, { useState, useEffect } from 'react';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import Image from 'next/image';
 import { BentoGrid, BentoGridItem } from "@/components/main/bento-grid";

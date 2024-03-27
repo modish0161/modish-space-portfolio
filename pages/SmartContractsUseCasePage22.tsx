@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,19 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                Revolutionizing the media and entertainment industry, the &quot;Media Entertainment Smart Contract&quot; introduces a novel paradigm for digital collectibles and fan engagement. Utilizing the Ethereum blockchain, this contract empowers artists, musicians, filmmakers, and other content creators to mint unique non-fungible tokens (NFTs) for their works, enabling a direct and secure connection with their audience. Each NFT, representing digital artworks, music, videos, and more, ensures authenticity, ownership, and scarcity, enhancing the value of digital media like never before.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                A cornerstone of this contract is its sophisticated royalty distribution mechanism. By assigning specific royalty percentages to each NFT, it guarantees that creators receive their fair share of the proceeds from every secondary sale. This sustainable revenue model incentivizes creators to continue producing groundbreaking work while ensuring ongoing compensation for their contributions to the cultural landscape.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                The contract&apos;s payment splitter feature further democratizes revenue distribution, fairly allocating earnings among all stakeholders, including artists, producers, and collaborators, based on predefined shares. This equitable approach to payment ensures that every contributor is rewarded for their role in the creative process, fostering a collaborative and supportive ecosystem within the media and entertainment industry.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                Additional functionalities, such as the ability for NFT owners to update royalty percentages and withdraw accumulated royalties, offer unprecedented control and flexibility in managing digital assets. This not only empowers creators but also engages fans by providing them with unique, collectible pieces of their favorite content, thereby deepening the fan-creator connection.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Deployed on the Ethereum network, the &quot;Media Entertainment Smart Contract&quot; marks a significant leap forward in the integration of blockchain technology with the media and entertainment sector. It showcases the immense potential of NFTs to transform digital media into valuable, collectible assets, heralding a new era of creator compensation, fan engagement, and content valuation. This smart contract is not just a tool for transaction and ownership recording; it&apos;s a catalyst for innovation, creativity, and change in the digital age.
               </p>
             </div>
           </div>

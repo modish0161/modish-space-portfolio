@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,19 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                The &quot;Construction Project Management&quot; smart contract introduces an unprecedented level of transparency, efficiency, and accountability into the construction industry. Built on the Ethereum blockchain and leveraging ERC721 tokens, this smart contract framework allows for the detailed management of construction projects, from inception through to completion, including the registration of ethically sourced materials.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                By incorporating zk-SNARKs technology, the contract uniquely verifies the ethical sourcing of materials without compromising sensitive information. This innovative approach not only enhances project transparency but also supports the construction industry&apos;s shift towards more sustainable and responsible practices.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                The contract&apos;s features facilitate a comprehensive management system for construction projects, enabling project owners to track milestones and budget allocations seamlessly. Additionally, the milestone tracking capability is integral to the contract, ensuring that project progress is accurately documented and that milestone completions trigger appropriate actions, such as payment releases.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                Material registration through the contract fosters a transparent supply chain, providing undeniable proof of the ethical sourcing of materials used in construction projects. This aspect not only aligns with global sustainability goals but also offers a competitive edge to projects committed to ethical standards.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Embracing the &quot;Construction Project Management&quot; smart contract signifies a step forward in the digital transformation of the construction industry. It exemplifies how blockchain technology can be applied to real-world scenarios, bringing about efficiency, transparency, and trust. As the construction industry continues to evolve, this smart contract stands as a beacon of innovation, demonstrating the practical benefits of integrating blockchain technology into the sector&apos;s foundational processes.
               </p>
             </div>
           </div>

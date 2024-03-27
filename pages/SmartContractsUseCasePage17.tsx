@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,19 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                The &quot;Energy Supply and Carbon Credits&quot; smart contract introduces a groundbreaking approach to managing renewable energy trading and carbon credits on the blockchain. It empowers individuals and businesses to engage in peer-to-peer energy transactions, directly trading renewable energy tokens in a secure and transparent manner. This initiative is a key step towards democratizing energy distribution and fostering a more sustainable energy economy.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                A pivotal feature of this contract is its carbon credit issuance system, which incentivizes the production of renewable energy. By rewarding energy producers with carbon credits for their contributions to reducing carbon emissions, the contract aligns economic incentives with environmental goals. This mechanism not only encourages the adoption of renewable energy sources but also facilitates a market for carbon credits, enhancing environmental sustainability efforts.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                Furthermore, the contract incorporates advanced technologies, including zk-SNARKs, to ensure the privacy of transactions. This feature enables the execution of private trades and carbon credit transactions, ensuring that sensitive financial and operational data remain confidential. The integration of zk-SNARKs technology underscores the contract&apos;s commitment to security and privacy, addressing key concerns in the blockchain space.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                The contract also includes mechanisms for verifying the renewable nature of the energy being traded, ensuring that only certified renewable energy is part of the ecosystem. This verification process is crucial for maintaining the integrity of the environmental claims associated with energy trading and carbon credit issuance. It represents a significant step towards transparent and verifiable environmental sustainability in the energy sector.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Developed on the Ethereum blockchain, the &quot;Energy Supply and Carbon Credits&quot; smart contract serves as a testament to the potential of blockchain technology to drive positive change in the energy sector. By enabling peer-to-peer energy trading, automating carbon credit issuance, and ensuring transaction privacy, the contract provides a scalable and efficient framework for advancing renewable energy adoption and environmental sustainability. This initiative is a vital component of our commitment to leveraging technology for a greener planet.
               </p>
             </div>
           </div>

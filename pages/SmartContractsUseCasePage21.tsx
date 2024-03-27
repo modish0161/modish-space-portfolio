@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,22 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                The &quot;Product Lifecycle and Authenticity&quot; smart contract revolutionizes how products are tracked and authenticated, leveraging Ethereum&apos;s blockchain and the ERC-721 token standard. Designed for both businesses and consumers who value transparency, sustainability, and authenticity, this contract enables a new era of product traceability and environmental responsibility.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                At the core of this platform is the ERC-721 tokenization of products, allowing for the secure and immutable tracking of ownership and product history. Each product&apos;s journey from manufacturing through to potential recycling is recorded, promoting not only transparency but also encouraging sustainable practices by highlighting products that have been recycled.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                The integration of dynamic metadata further enriches the information available for each product, linking to detailed certifications, lifecycle information, and even sustainability credentials stored off-chain. This approach ensures that a wealth of product information can be securely accessed and verified without overloading the blockchain.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                Future plans to incorporate zk-SNARKs technology will introduce privacy-preserving mechanisms to verify the authenticity of products without disclosing sensitive information. This planned feature underscores the contract&apos;s commitment to privacy, allowing stakeholders to confirm product legitimacy securely.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
+                Additionally, the contract includes mechanisms for assessing and documenting the environmental impact of products. By tracking metrics such as carbon footprint and sourcing sustainability, it aligns with global efforts towards environmental consciousness and offers consumers and businesses alike the data needed to make responsible choices.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Deploying on the Ethereum blockchain, the &quot;Product Lifecycle and Authenticity&quot; contract is a testament to the power of blockchain technology in fostering a more transparent, sustainable, and authentic marketplace. It paves the way for responsible consumption and production, aligning closely with environmental sustainability goals and offering a model for future innovations in product lifecycle management.
               </p>
             </div>
           </div>

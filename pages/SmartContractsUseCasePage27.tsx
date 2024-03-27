@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,19 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                The &quot;Water and Waste Management Smart Contract&quot; marks a significant advancement in environmental stewardship through blockchain technology. Designed to support the critical sectors of water rights management and waste tracking, this platform leverages the Ethereum blockchain to ensure transparency, security, and efficiency. By tokenizing water rights and providing an immutable ledger for waste records, it enables a new level of precision and accountability in environmental resource management.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                Water rights, a vital component of environmental conservation and management, are securely registered and managed within the blockchain, allowing for transparent and equitable trading. This feature not only simplifies the process of transferring water rights but also ensures that all transactions are conducted fairly and transparently, safeguarding this precious resource for future generations.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                The platform also introduces a robust system for recording waste disposal activities, emphasizing the importance of sustainable waste management practices. By enabling users to record waste types, quantities, and disposal methods, and to mark waste as recycled, it fosters a culture of recycling and responsible waste management. This functionality highlights the contract&apos;s commitment to supporting environmental sustainability efforts and promoting a circular economy.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                Incorporating advanced privacy-preserving technologies such as zk-SNARKs, the contract is poised to offer secure and private transactions, ensuring that sensitive data remains confidential while benefiting from blockchain&apos;s transparency. This balance of privacy and transparency is crucial for the wide adoption of blockchain in environmental resource management.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Deployed on the Ethereum network, the &quot;Water and Waste Management Smart Contract&quot; represents a visionary approach to managing Earth&apos;s resources. It not only provides a scalable and secure platform for water rights and waste management but also serves as a cornerstone for building a sustainable future. By harnessing the power of blockchain technology, this smart contract paves the way for innovative solutions to some of the most pressing environmental challenges, promoting conservation, sustainability, and responsible stewardship of our planet.
               </p>
             </div>
           </div>

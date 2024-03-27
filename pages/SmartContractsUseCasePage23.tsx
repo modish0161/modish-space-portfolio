@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,19 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                The &quot;Mining and Quarrying Contract&quot; stands as a testament to the transformative power of blockchain technology in the mining and quarrying sector. This cutting-edge platform leverages Ethereum smart contracts to provide a comprehensive, secure, and immutable system for managing mineral batches, land rights, royalties, and compliance audits. By tokenizing mineral batches as unique ERC721 tokens, it ensures unparalleled traceability and transparency from extraction to market, heralding a new era of efficiency and trust in the industry.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                Central to this innovation is the meticulous management of land rights, offering a clear, transparent record of mining entitlements on the blockchain. This not only simplifies the verification of land ownership and mining rights but also facilitates the direct and automatic compensation of landowners through a dynamic royalty payment system. This system adjusts royalty rates based on actual mineral extraction volumes, guaranteeing fair and equitable compensation.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                Planned integration with zk-SNARKs technology underscores the contract&apos;s commitment to privacy and security, enabling the verification of mineral batches and land rights without compromising sensitive data. Additionally, the contract&apos;s robust audit trail feature records compliance audits, providing immutable evidence of environmental and regulatory adherence. This feature is instrumental in promoting industry accountability and supporting sustainable mining practices.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                Implementing role-based access control (RBAC) further enhances the contract&apos;s security, ensuring that only authorized individuals can perform specific actions such as registering mineral batches, managing land rights, and conducting audits. This level of control is crucial in maintaining the integrity and reliability of the mining and quarrying operations.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Deployed on the Ethereum network, the &quot;Mining and Quarrying Contract&quot; exemplifies the potential of blockchain to revolutionize traditional industries. By ensuring the traceability of mineral batches, enforcing the rights of landowners, and upholding compliance with environmental standards, this platform sets a new benchmark for transparency, efficiency, and sustainability in the mining and quarrying industry. It represents not just a technological leap but a commitment to ethical and responsible resource extraction.
               </p>
             </div>
           </div>

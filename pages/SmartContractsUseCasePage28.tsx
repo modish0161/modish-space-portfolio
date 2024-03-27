@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,27 +38,24 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                The &quot;Public Records Contract&quot; represents a groundbreaking innovation by Zero-Blockchain.xyz, harnessing the power of blockchain technology to redefine public records management. This advanced solution, built on Ethereum and integrating Chainlink&apos;s oracles, aims to enhance the integrity, privacy, and efficiency of managing governmental records. By leveraging smart contracts, the platform ensures secure, transparent, and immutable record-keeping, augmented by off-chain data storage capabilities, Role-Based Access Control (RBAC), and future implementations of Zero-Knowledge Proofs (ZKP) for unmatched data verification.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                This contract is designed to facilitate a wide range of functionalities vital for modern public administration, including secure record addition, verification via ZKP (planned), and integration with Decentralized Identifiers (DIDs). Its architecture allows for the seamless addition of public records, their verification against external data sources, and the association of comprehensive data stored off-chain, thereby offering scalability without compromising the benefits of blockchain&apos;s security.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                Zero-Blockchain.xyz&apos;s commitment to innovation is reflected in the deployment of this contract, emphasizing the potential of blockchain to transform public sector operations. The solution embodies a significant leap towards a future where governmental data management is decentralized, secure, and transparent, empowering public entities to operate more effectively in the digital age.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                The Public Records Contract stands as a testament to Zero-Blockchain.xyz&apos;s expertise in blockchain development and its dedication to advancing public sector technology. It showcases a strategic application of Solidity programming, Chainlink&apos;s oracle network, and IPFS for off-chain storage, demonstrating a sophisticated approach to addressing the challenges of digital record-keeping in the public domain.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Embarking on this journey with Zero-Blockchain.xyz, stakeholders in the public sector are invited to explore the capabilities of the Public Records Contract. This venture not only symbolizes a significant enhancement in public records management but also aligns with the broader vision of leveraging cutting-edge technologies to foster a more efficient, transparent, and secure governance framework.
               </p>
             </div>
           </div>
         </section>
-        <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">Smart Contract - ERC721</h2>
+        <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">Smart Contract - ChainlinkClient</h2>
         <div className="flex flex-col items-center py-12 bg-gray-100 dark:bg-gray-850">
           <div className="text-center">
             <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white pr-20 pl-20">Public Sector and Government.sol & Public Sector and Government - readme.md</h2>

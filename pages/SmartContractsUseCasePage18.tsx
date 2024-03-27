@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../app/globals.css";
-import Navbar from "@/components/main/Navbar";
+import Navbar from "@/components/main/Navbar2";
 import Footer from "@/components/main/Footer";
 import PulseBeam from '../components/main/PulseBeam';
 
@@ -38,22 +38,19 @@ export default function Home() {
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
+                At the heart of our commitment to environmental stewardship, the &quot;Environmental Conservation Contract&quot; stands as a beacon of innovation. Designed to harness the power of blockchain technology, this smart contract aims to incentivize and reward actions that contribute significantly to environmental conservation. By participating in predefined conservation activities, users are rewarded with tokens, fostering a culture of sustainability and active engagement in ecological preservation.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                This portfolio, accessible via <a href="https://modish-space-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">modish-space-portfolio.vercel.app</a> and <a href="https://machudesign-portfolio7.vercel.app/" target="_blank" rel="noopener noreferrer">machudesign-portfolio7.vercel.app</a>, encapsulates an array of projects that highlight Matthew&apos;s proficiency in harnessing cutting-edge technologies like Web3, Solidity, and smart contract development, alongside his architectural expertise in creating both digital and physical spaces that inspire.
+                The contract features a dynamic action management system, allowing the contract owner to define and modify actionable conservation efforts. Each action is associated with a specified reward amount, encouraging participants to engage in meaningful environmental activities. This flexible framework ensures the contract remains relevant and aligned with evolving conservation needs and priorities.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Matthew&apos;s work as a Senior Software Engineer and Blockchain Developer is underpinned by an extensive command of languages and frameworks such as Python, JavaScript, React.js, and Solidity, among others. His portfolio illustrates a passion for Web3 Development, showcasing successful projects on blockchain platforms like Ethereum and Polygon, emphasizing decentralized applications that are secure, scalable, and innovative.
+                A pivotal component of this contract is its participant engagement mechanism. Users complete actions, earn rewards, and witness their positive impact on the environment firsthand. This direct engagement model not only rewards individual efforts but also cultivates a collective consciousness towards environmental conservation. The ability to withdraw earned rewards adds an additional layer of utility and gratification, enhancing user experience and participation.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                In architectural technology, Matthew has led numerous projects from conceptual designs to completed structures, integrating sustainable practices with modern aesthetics. His role as a Senior Architectural Technologist and Managing Director of MachuDesign Ltd manifests through groundbreaking designs in commercial, residential, and public sector projects, reflecting a dedication to enhancing the built environment.
+                Furthermore, the contract incorporates a deactivation feature, empowering the owner to adapt the system to changing environmental strategies and goals. This ensures that conservation efforts remain targeted and effective, driving impactful and sustainable outcomes. The &quot;Environmental Conservation Contract&quot; is more than a smart contract; it is a testament to the potential of blockchain technology to foster a greener, more sustainable world.
               </p>
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Beyond technical prowess, Matthew&apos;s portfolio also unveils his contribution to financial education and analysis. As an Editor-in-Chief and Financial Analyst for moo-lah.io, he has authored multiple finance books aimed at demystifying wealth building and investment strategies, emphasizing the synergy between financial acumen and technological innovation.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Discover a world where technology meets design, and innovation meets application. Whether you&apos;re interested in the future of blockchain, the evolution of architectural design, or the insights into financial success, Matthew Collins&apos;s portfolio offers a gateway to exploring these domains. Visit the websites to explore projects, insights, and the professional journey of a visionary at the forefront of technological and architectural innovation.
+                Deployed on the Ethereum blockchain, this contract represents a significant step forward in our journey towards environmental sustainability. It embodies our belief in leveraging innovative technologies for the greater good, marking a new era in conservation efforts. By participating in this initiative, users not only contribute to tangible environmental benefits but also become part of a global movement towards a more sustainable future.
               </p>
             </div>
           </div>
