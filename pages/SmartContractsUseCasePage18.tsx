@@ -13,11 +13,11 @@ export default function Home() {
     async function fetchData() {
       try {
         // Fetch Solidity code
-        const solidityResponse = await axios.get('/contracts/Construction.sol');
+        const solidityResponse = await axios.get('/contracts/Environmental Conservation.sol');
         setSolidityCode(solidityResponse.data);
 
         // Fetch README.md content
-        const readmeResponse = await axios.get('/contracts/Construction - readme.md');
+        const readmeResponse = await axios.get('/contracts/Environmental Conservation - readme.md');
         setReadmeContent(readmeResponse.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -31,11 +31,11 @@ export default function Home() {
     <main className="h-full w-full bg-black">
       <Navbar />
       <div className="flex flex-col gap-20 items-center">
-        <h1 className="text-white text-center text-3xl font-bold mt-20 mb-0 px-6">Matthew James Collins MSc CIAT Curriculum Vitae</h1>
+        <h1 className="text-white text-center text-3xl font-bold mt-20 mb-0 px-6">Zero-Blockchain.xyz - Smart Contract for Environmental Conservation</h1>
         {/* Photo Portfolio Section */}
         <section className="relative w-full overflow-hidden bg-gray-100 py-12 md:py-24 xl:py-32 dark:bg-gray-850">
           <div className="container px-4 space-y-12 md:space-y-16 xl:space-y-20 dark:text-gray-250 text-center mx-auto">
-            <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About MJ</h2>
+            <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">About the Smart Contract</h2>
             <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
               <p className="text-sm leading-relaxed md:text-base lg:text-lg">
                 Welcome to the digital showcase of Matthew Collins, a senior figure at the intersection of software engineering, blockchain innovation, and architectural design. With a career that spans over two decades, Matthew has established a formidable reputation in transforming complex visions into executed realities, leveraging a blend of technical brilliance and creative insight.
@@ -58,13 +58,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">CV</h2>
+        <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">Smart Contract - ERC20</h2>
         <div className="flex flex-col items-center py-12 bg-gray-100 dark:bg-gray-850">
           <div className="text-center">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white pr-20 pl-20">Matthew Collins - Senior Software Engineer & Blockchain Expert</h2>
-            <p className="text-md md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 mt-4 mb-6">
-              Dive into my professional journey and expertise.
-            </p>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white pr-20 pl-20">Environmental Conservation.sol & Environmental Conservation - readme.md</h2>
+
           </div>
           {/* Display Solidity code */}
           {solidityCode && (
