@@ -26,91 +26,78 @@ export default function Home() {
       title: "THE ESSENCE OF SMART CONTRACTS",
       description: `Smart contracts represent self-executing contracts with the terms of the agreement directly written into lines of code. Zero-Blockchain.xyz harnesses these digital protocols to automate and enforce contract execution, driving efficiency and trust.`,
       image: "/images/Smarts Contracts & Solidity Programmming/1.webp",
-      //link: "/SmartContractsUseCasePage1",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "ENABLING TRUSTLESS TRANSACTIONS",
       description: `By facilitating transactions without intermediaries, smart contracts on Zero-Blockchain.xyz reduce overhead costs and eliminate the need for third-party verification, fostering a trustless environment where transactions are transparent and irreversible.`,
       image: "/images/Smarts Contracts & Solidity Programmming/2.webp",
-      //link: "/SmartContractsUseCasePage2",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "INNOVATION IN CONTRACT MANAGEMENT",
       description: `Zero-Blockchain.xyz is at the forefront of revolutionizing contract management, making contracts dynamic, programmable, and automated. Bringing efficiency to legal agreements and op's.`,
       image: "/images/Smarts Contracts & Solidity Programmming/3.webp",
-      //link: "/SmartContractsUseCasePage3",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "SECURITY AND COMPLIANCE",
       description: `Our commitment to security is unwavering, with smart contracts designed to be tamper-proof and transparent. We ensure compliance with regulatory standards, safeguarding all transactions and data on the blockchain.`,
       image: "/images/Smarts Contracts & Solidity Programmming/4.webp",
-      //link: "/SmartContractsUseCasePage4",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "DEMOCRATIZING THE ECONOMY",
       description: `Zero-Blockchain.xyz leverages smart contracts to democratize access to financial services, allowing individuals and businesses worldwide to engage in economic activities without barriers, thereby fostering global economic inclusion.`,
       image: "/images/Smarts Contracts & Solidity Programmming/5.webp",
-      //link: "/SmartContractsUseCasePage5",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "THE FUTURE OF DIGITAL AGREEMENTS",
       description: `We envision a future where smart contracts are the backbone of digital agreements across all sectors. Zero-Blockchain.xyz is dedicated to developing solutions that pave the way for this future, ensuring scalability, security, and user-friendliness.`,
       image: "/images/Smarts Contracts & Solidity Programmming/6.webp",
-      //link: "/SmartContractsUseCasePage6",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "CUTTING-EDGE TECHNOLOGY INTEGRATION",
       description: `Zero-Blockchain.xyz integrates the latest blockchain technologies, including Zero-Knowledge Proofs and Layer 2 scaling solutions, into smart contracts to enhance privacy, efficiency, and scalability.`,
       image: "/images/Smarts Contracts & Solidity Programmming/7.webp",
-      //link: "/SmartContractsUseCasePage7",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "EMPOWERING AUTONOMOUS ORGANIZATIONS",
       description: `Smart contracts are the building blocks for decentralized autonomous organizations (DAOs), enabling transparent and democratic governance structures.`,
       image: "/images/Smarts Contracts & Solidity Programmming/8.webp",
-      //link: "/SmartContractsUseCasePage8",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "ACCELERATING GLOBAL TRADE AND COMMERCE",
       description: `By streamlining complex trade processes and automating compliance and verification, smart contracts on Zero-Blockchain.xyz significantly reduce the time and cost associated with global trade.`,
       image: "/images/Smarts Contracts & Solidity Programmming/9.webp",
-      //link: "/SmartContractsUseCasePage9",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "PIONEERING IN PRIVACY AND DATA PROTECTION",
       description: `In an era where data privacy is paramount, Zero-Blockchain.xyz is pioneering the integration of advanced cryptographic techniques, such as Zero-Knowledge Proofs, into smart contracts.`,
       image: "/images/Smarts Contracts & Solidity Programmming/10.webp",
-      //link: "/SmartContractsUseCasePage10",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "BUILDING A SUSTAINABLE BLOCKCHAIN ECOSYSTEM",
       description: `Our approach goes beyond transactions; it's about building a sustainable, eco-friendly blockchain ecosystem. Smart contracts are key in automating and verifying compliance with standards and goals.`,
       image: "/images/Smarts Contracts & Solidity Programmming/11.webp",
-      //link: "/SmartContractsUseCasePage11",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "DRIVING INNOVATION THROUGH EDUCATION",
       description: `Zero-Blockchain.xyz is committed to driving blockchain innovation through education. By demystifying smart contracts and blockchain technology, we empower our users.`,
       image: "/images/Smarts Contracts & Solidity Programmming/12.webp",
-      //link: "/SmartContractsUseCasePage12",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
       title: "COLLABORATIVE DEVELOPMENT FOR GLOBAL SOLUTIONS",
       description: `We believe in the power of collaboration to solve global challenges. Zero-Blockchain.xyz invites developers, enterprises, and innovators to join us in creating smart contract solutions around.`,
       image: "/images/Smarts Contracts & Solidity Programmming/13.webp",
-      //link: "/SmartContractsUseCasePage13",
       link2: "https://github.com/modish0161/Smart-Contracts-Use-Cases---Zero-Blockchain-xyz---POW--POS/blob/main/"
     },
     {
