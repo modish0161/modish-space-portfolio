@@ -216,26 +216,7 @@ export default function Home() {
         <section className="relative w-full overflow-hidden bg-gray-100 py-12 md:py-24 xl:py-32 dark:bg-gray-850">
           <div className="container px-4 space-y-12 md:space-y-16 xl:space-y-20 dark:text-gray-250 text-center mx-auto">
             <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto">Smart Contracts & Solidity Programming - Zero-Blockchain.xyz</h2>
-            <div className="md:grid md:grid-cols-2 md:gap-16 text-justify">
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Zero-Blockchain.xyz epitomizes the convergence of traditional finance and cutting-edge blockchain technology, spearheading innovations that redefine digital transactions. Our expertise in Smart Contract programming and development on both the Ethereum Chain and our bespoke blockchain underscores our commitment to advancing the financial industry.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                With a foundation built on educational excellence, we strive to demystify blockchain technology for a diverse audience. Our comprehensive learning resources cater to everyone from blockchain novices to adept developers, facilitating widespread adoption and empowerment through knowledge.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Our suite of services and platforms are tailor-made to address challenges across various sectors, including finance, healthcare, and supply chain management. We leverage practical case studies and success stories to illustrate the transformative impact of our blockchain solutions in enhancing operational efficiency, security, and transparency.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                At the heart of Zero-Blockchain&apos;s innovation is our relentless pursuit of the latest in Decentralized Applications - dApps and blockchain technologies. This commitment ensures that our offerings are consistently at the industry&apos;s forefront, equipping both individuals and businesses with the tools needed for success in the digital age.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                We view the future of blockchain as a collective endeavour, deeply engaging with our clients, partners, and the global community to integrate blockchain technology into everyday transactions. This collaborative approach is key to unlocking the full potential of blockchain and propelling the digital revolution forward.
-              </p>
-              <p className="text-sm leading-relaxed md:text-base lg:text-lg">
-                Join us in exploring the boundless opportunities provided by blockchain technology. Discover how Zero-Blockchain.xyz can transform your industries experience through our innovative services, educational programs, and pioneering projects. Embark with us on a journey to redefine digital finance, making it more accessible, secure, and efficient for all.
-              </p>
-            </div>
+            {/* Content and descriptions */}
           </div>
         </section>
         <h2 className="text-lg font-bold tracking-tighter sm:text-lg md:text-xl lg:text-xl mx-auto text-white mb-0">Slides, Smart Contracts & Use Cases for Industry</h2>
@@ -246,7 +227,7 @@ export default function Home() {
               <CardContainer key={index} className="inter-var bg-white dark:bg-gray-800 rounded-lg p-6 mb-0">
                 <CardBody>
                   <h3 className="text-xl font-bold">{project.title}</h3>
-                  <div style={{ whiteSpace: 'pre-wrap' }}>{project.description}</div> {/* Corrected line */}
+                  <div style={{ whiteSpace: 'pre-wrap' }}>{project.description}</div>
                   <div className="mt-2 w-full h-auto">
                     <Image
                       src={project.image}
@@ -256,23 +237,24 @@ export default function Home() {
                       className="rounded-xl object-cover w-full h-full"
                     />
                   </div>
-                  {/* Add this container inside your CardBody to wrap both buttons */}
                   <div className="mt-4 flex justify-center gap-4 w-full md:w-auto">
-                  {/* Ensure that `link` is defined or provide a default */}
-                  <Link href={project.link || '/defaultPath'} passHref>
-                    <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
-                      View Smart Contract
-                    </button>
-                  </Link>
-                  {/* Ensure that `link2` is defined or provide a default */}
-                  <Link href={project.link2 || '/defaultPath'} passHref>
-                    <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
-                      GitHub Link
-                    </button>
-                  </Link>
-                </div>
-              </CardBody>
-            </CardContainer>
+                    {project.link && (
+                      <Link href={project.link} passHref>
+                        <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
+                          View Smart Contract
+                        </button>
+                      </Link>
+                    )}
+                    {project.link2 && (
+                      <Link href={project.link2} passHref>
+                        <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
+                          GitHub Link
+                        </button>
+                      </Link>
+                    )}
+                  </div>
+                </CardBody>
+              </CardContainer>
             ))}
           </div>
         </div>
