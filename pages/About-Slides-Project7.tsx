@@ -271,19 +271,21 @@ export default function Home() {
                   </div>
                   {/* Add this container inside your CardBody to wrap both buttons */}
                   <div className="mt-4 flex justify-center gap-4 w-full md:w-auto">
-                    <Link href={project.link} passHref>
-                      <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
-                        View Smart Contract
-                      </button>
-                    </Link>
-                    <Link href={project.link2} passHref>
-                      <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
-                        GitHub Link
-                      </button>
-                    </Link>
-                  </div>
-                </CardBody>
-              </CardContainer>
+        {/* Ensure that `link` is defined or provide a default */}
+        <Link href={project.link || '/defaultPath'} passHref>
+          <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
+            View Smart Contract
+          </button>
+        </Link>
+        {/* Ensure that `link2` is defined or provide a default */}
+        <Link href={project.link2 || '/defaultPath'} passHref>
+          <button className="px-4 py-2 bg-black border-2 border-gray-300 text-white rounded-lg w-full md:w-auto hover:scale-110 transition-transform duration-300">
+            GitHub Link
+          </button>
+        </Link>
+      </div>
+    </CardBody>
+  </CardContainer>
             ))}
           </div>
         </div>
