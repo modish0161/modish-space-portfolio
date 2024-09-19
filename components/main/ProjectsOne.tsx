@@ -24,7 +24,7 @@ export function ThreeDCardDemo() {
       description: "Innovative architecture, transforming spaces with precision.",
       image: "/images/machudesign-images/machudesign_com-Project-Opening-Page1.png",
       SlidesAndInfoRoute: "/About-Slides-Project1",
-      signUpRoute: "https://www.machudesign.com",
+      signUpRoute: "https://machudesigns.wixsite.com/website-1",
       signUpRouteTarget: "_blank"
     },
     {
@@ -40,7 +40,7 @@ export function ThreeDCardDemo() {
       description: "Navigate Finance, Accelerate Success. Grow Your Wealth, One Click at a Time ",
       image: "/images/moo-lah_io/moo-lah_io-Project-Opening-Page1.png",
       SlidesAndInfoRoute: "/About-Slides-Project3",
-      signUpRoute: "https://www.moo-lah.io",
+      signUpRoute: "https://moolah0161.wixsite.com/moo-lah",
       signUpRouteTarget: "_blank"
     },
     {
