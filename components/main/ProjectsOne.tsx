@@ -64,11 +64,11 @@ export function ThreeDCardDemo() {
       signUpRoute2Target: "_blank"
     },
     {
-      title: "www.Zero-Bank.io",
+      title: "www.Zero-Bank.xyz",
       description: "Zero Bank transforms banking for the digital age.",
       image: "/images/www_zero-bank_io/zero-bank-opening-page.png",
       SlidesAndInfoRoute: "/About-Slides-Project6",
-      signUpRoute: "https://zero-bank.vercel.app",
+      signUpRoute: "https://zero-bank.xyz",
       signUpRouteTarget: "_blank"
     },
     {
